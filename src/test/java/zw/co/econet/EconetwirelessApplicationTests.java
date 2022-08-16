@@ -52,4 +52,16 @@ public class EconetwirelessApplicationTests {
 
         Assert.assertTrue( shops.size()>0);
     }
+
+    @Test
+    public void shopIsSavedToExistingArea() {
+
+        Assert.assertNotNull(shopRepository.findById(1l).get().getArea());
+    }
+
+    @Test
+    public void shopNameContainsCapitalLettersOnly() {
+
+        Assert.assertTrue(shopRepository.findById(1l).get().getShopname().matches("[A-Z0-9]+"));
+    }
 }

@@ -10,3 +10,6 @@
 - run the compiled jar using `$ java -jar econetwireless-0.0.1-SNAPSHOT.jar`
 - consumer the API using the port number `8081`
 - incase of errors visit `http://localhost:8081/swagger-ui.html`
+
+##Video URL
+[https://drive.google.com/file/d/1UWptcETCh0dpiKwzVLWQPOi63i1h-6ZI/view?usp=sharing](https://drive.google.com/file/d/1UWptcETCh0dpiKwzVLWQPOi63i1h-6ZI/view?usp=sharing)
